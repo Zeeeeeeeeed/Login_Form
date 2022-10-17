@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="container-left-column-one">
+                <h1>Create Account</h1>
+                <div class="container-social-icons">
+                    <!-- <input class="icons-google" type="submit" value="Google"></input>
+                    <input class="icons-facebook" type="submit" value="Facebook"></input>
+                    <input class="icons-twitter" type="submit" value="Twitter"></input> -->
+                    <div class="social-icon-google">
+                        <i class="fa-brands fa-2x fa-google"></i>
+                    </div>
+                    <div class="social-icon-facebook">
+                        <i class="fa-brands fa-2x fa-facebook"></i>
+                    </div>
+                    <div class="social-icon-twitter">
+                        <i class="fa-brands fa-2x fa-twitter"></i>
+                    </div>
+                    <div class="social-icon-discord">
+                        <i class="fa-brands fa-2x fa-discord"></i>
+                    </div>
+                </div>
+                <h5>or use email for registration:</h5>
+            </div>
+
+            <div class="container-left-column-two">
+                <div class="form">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="Email" placeholder="Email" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="Terms" name="Terms" value="Agreed" class="checkbox">
+                    <label for="check">
+                        I agree to the <a href="">Terms</a> and <a href="">Privacy Policy</a>
+                    </label>
+                </div>
+
+            </div>
+            <div class="submit-buttons">
+                <input type="button" value="Sign Up">
+                <input type="button" value="Log In">
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="svghuman">
+                <img src="./svg/login.svg" alt="human" class="human">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
